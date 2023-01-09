@@ -1,4 +1,14 @@
 @charset "utf-8";
+@media (max-width: 1024px){
+    .body{
+        width: 900px;
+    }
+}
+@media (max-height: 768px){
+    .body{
+        height: 300px;
+    }
+}
 /*skip navigatoin*/
 #skip{
     position: relative;
